@@ -27,6 +27,8 @@ function App() {
       setDice(allNewDice())
   }
 
+  // dice function
+
   const diceElements = dice.map(die => (
       <Die key={die.id} value={die.value} />
   ))
